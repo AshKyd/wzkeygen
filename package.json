@@ -1,0 +1,17 @@
+{
+  "name": "wzkeygen",
+  "version": "0.0.1",
+  "description": "Weatherzone keygen: creates your rolling key for the Weatherzone API.",
+  "keywords": "weatherzone",
+  "homepage": "https://github.com/AshKyd/wzkeygen",
+  "author": "Ash Kyd <ash@kyd.com.au> (https://ash.ms/)",
+  "license": "MIT",
+  "main": "index.js",
+  "dependencies": {
+    "MD5": "~1.2.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AshKyd/wzkeygen.git"
+  }
+}
