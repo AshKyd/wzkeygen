@@ -17,7 +17,7 @@ module.exports = function(password){
 	// Pick out our day, month & two digit year.
 	day = now.getDay();
 	month = now.getMonth()+1;
-	year = now.getYear().toString().substring(2);
+	year = now.getFullYear().toString().substring(2);
 
 	// Create the salt as defined.
 	salt = day*2 + month*300 + year*1700000;
